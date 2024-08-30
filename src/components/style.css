@@ -1,0 +1,21 @@
+/* form_container-ts {
+  width: 80%;
+} */
+
+/* @media (width >= 400px) and (width <= 800px) {
+  form_container-ts {
+    width: 50%;
+  }
+} */
+
+/* @media screen and (max-width: 1000px) {
+  .form_container {
+    width: 100%;
+  }
+} */
+
+/* @media only screen and (min-width: 200px) and (max-width: 700px) {
+  .form_container {
+    width: 80%;
+  }
+} */
