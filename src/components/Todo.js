@@ -92,14 +92,14 @@ function Todo() {
   };
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center vh-100">
-      <div className="container p-5 bg-light shadow rounded">
-        <h1 className="text-center text-info mt-3 fs-1">
+    <div className="container-fluid">
+      <div className="bg-light shadow rounded">
+        <h1 className="text-center text-info mt-3">
           <i className="fa-solid fa-list-check"></i> My Todo-s
         </h1>
 
         <div className="row justify-content-center">
-          <form className="bg-light p-4 col-12 col-md-8 col-lg-6">
+          <form className="vh- bg-light p-0 col-12 col-md-8 col-lg-6">
             <div className="mb-3">
               <input
                 className="form-control"
